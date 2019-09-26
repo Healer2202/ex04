@@ -6,29 +6,46 @@ using System.Threading.Tasks;
 
 namespace ex04
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            for(int i=0; i <= 100; i++)
+            
+        }
+        public static bool IsOdd(int n)
+        {
+            if(n %2 != 0)
             {
-                if()
-                {
-                    Console.WriteLine(i);
-                }
-                //else
-                //{
-                //    Console.WriteLine()
-               // }
+                return true;
+            }                
+                return false;
+    }
+        public static bool IsEven(int n)
+        {
+             if(n %2 == 0)
+            {
+                return true;
+            }                
+                return false;
+        }
+        public static bool IsPrime(int n)
+        {
+            if (n <= 1)
+            {
+                return false;
             }
-        }
-        static bool IsOdd(int n)
+            for(int i = 2; i < n; i++)
+            {
+                if (n%i ==0)                
+                    return false;
+                 }
+                    return true;
+            }
+        public static int Square(int n)
         {
-            return n % 2 != 0;
+
         }
-        static bool IsEven(int n)
-        {
-            return n % 2 == 0;
         }
     }
-}
+
+
