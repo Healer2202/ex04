@@ -98,10 +98,7 @@ namespace ex04
             Random rd2 = new Random();
             return rd2.Next(0, 1);
         }
-        public static long Factorial()
-        {
-            
-        }
+        
     }
     }
 

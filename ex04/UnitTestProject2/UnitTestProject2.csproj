@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D44C7C1D-7507-485A-882C-009833657831}</ProjectGuid>
+    <ProjectGuid>{AFFF7D6B-2943-4FB1-945E-B9721BB28198}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProject1</RootNamespace>
-    <AssemblyName>UnitTestProject1</AssemblyName>
+    <RootNamespace>UnitTestProject2</RootNamespace>
+    <AssemblyName>UnitTestProject2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ex04\ex04.csproj">
-      <Project>{1fc518f2-8003-4f30-88d0-60cbaebfb22e}</Project>
-      <Name>ex04</Name>
+    <ProjectReference Include="..\ConsoleApplication2\ConsoleApplication2.csproj">
+      <Project>{139ddcfd-fe4a-48be-994e-e7e9ef1de66f}</Project>
+      <Name>ConsoleApplication2</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
