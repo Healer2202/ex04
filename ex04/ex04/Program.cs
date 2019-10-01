@@ -100,7 +100,7 @@ namespace ex04
         }
         public static long Factorial()
         {
-
+            222
         }
     }
     }
