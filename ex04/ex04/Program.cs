@@ -79,8 +79,13 @@ namespace ex04
             }
             return (int)number3;
         }
+        
         public static int mathFloor(double number3)
         {
+            if (number3 < 0)
+            {
+                return (int)number3 - 1;
+            }
             return (int)number3;
         }
         public static int Random(int number)
@@ -92,6 +97,10 @@ namespace ex04
         {
             Random rd2 = new Random();
             return rd2.Next(0, 1);
+        }
+        public static long Factorial()
+        {
+
         }
     }
     }

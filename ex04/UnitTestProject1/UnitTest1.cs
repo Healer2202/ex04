@@ -74,6 +74,14 @@ namespace UnitTestProject1
         {
             int kq1 = Program.mathFloor(4.4);
             Assert.AreEqual(4, kq1);
+
+            int kq2 = Program.mathFloor(-2.3);
+            Assert.AreEqual(-3, kq2);
+        }
+        [TestMethod]
+        public void testFactorial()
+        {
+            
         }
     }
 }
