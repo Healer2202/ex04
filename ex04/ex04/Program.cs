@@ -98,7 +98,15 @@ namespace ex04
             Random rd2 = new Random();
             return rd2.Next(0, 1);
         }
-        
+        public static long factonrial(long x)
+        {
+            int result = 1;
+            for (int i = 1; i <= x; i++)
+            {
+                result = result * i;
+            }
+            return result;
+        }
     }
     }
 

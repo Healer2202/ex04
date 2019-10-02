@@ -81,7 +81,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void testFactorial()
         {
-            
+            long kq1 = Program.factonrial(4);
+            Assert.AreEqual(24, kq1);
         }
     }
 }
